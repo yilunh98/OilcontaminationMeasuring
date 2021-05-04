@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/test4">
+        <file>Resources/bg5.png</file>
+        <file>Resources/loading.gif</file>
+        <file>spin.qss</file>
+    </qresource>
+</RCC>

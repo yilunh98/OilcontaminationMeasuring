@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>497</width>
+    <height>275</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(253, 253, 253);</string>
+  </property>
+  <widget class="QDialogButtonBox" name="buttonBox">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>220</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(101, 111, 177);</string>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox6">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>130</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string>手动</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>自动</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox1">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>30</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string>NAS1638</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ISO4406</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>GJB420A-96</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>GJB420B-2006</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ГOCT17216</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox5">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>130</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string>自动</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>0</y>
+     <width>91</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>检测标准:
+
+
+检测周期:
+
+
+流速方式:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox3">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>80</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string>10s</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>05s</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>15s</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>20s</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>25s</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>30s</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>35s</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>40s</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>45s</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>50s</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>55s</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>60s</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>30</y>
+     <width>71</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>粒径形式:
+
+
+流速值:
+
+
+打印模式:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox2">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>30</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string>um(c)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>um</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox4">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>80</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string>25ml/min</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>05ml/min</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>10ml/min</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>15ml/min</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>20ml/min</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>30ml/min</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>35ml/min</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>40ml/min</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>45ml/min</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>50ml/min</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>Dialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>Dialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
