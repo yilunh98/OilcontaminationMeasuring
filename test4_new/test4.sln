@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test4", "test4\test4.vcproj", "{4F600484-78C5-49AF-9B0F-B563816C73A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|SDK_WQ335X (ARMV4I) = Debug|SDK_WQ335X (ARMV4I)
+		Release|SDK_WQ335X (ARMV4I) = Release|SDK_WQ335X (ARMV4I)
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F600484-78C5-49AF-9B0F-B563816C73A2}.Debug|SDK_WQ335X (ARMV4I).ActiveCfg = Debug|SDK_WQ335X (ARMV4I)
+		{4F600484-78C5-49AF-9B0F-B563816C73A2}.Debug|SDK_WQ335X (ARMV4I).Build.0 = Debug|SDK_WQ335X (ARMV4I)
+		{4F600484-78C5-49AF-9B0F-B563816C73A2}.Debug|SDK_WQ335X (ARMV4I).Deploy.0 = Debug|SDK_WQ335X (ARMV4I)
+		{4F600484-78C5-49AF-9B0F-B563816C73A2}.Release|SDK_WQ335X (ARMV4I).ActiveCfg = Release|SDK_WQ335X (ARMV4I)
+		{4F600484-78C5-49AF-9B0F-B563816C73A2}.Release|SDK_WQ335X (ARMV4I).Build.0 = Release|SDK_WQ335X (ARMV4I)
+		{4F600484-78C5-49AF-9B0F-B563816C73A2}.Release|SDK_WQ335X (ARMV4I).Deploy.0 = Release|SDK_WQ335X (ARMV4I)
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
